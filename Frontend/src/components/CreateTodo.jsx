@@ -1,13 +1,26 @@
 export function CreateTodo() {
   return (
     <div>
-      <input type="text" placeholder="title"></input>
+      <input style={{ padding: 10 }} type="text" placeholder="title"></input>
       <br></br>
       <br></br>
-      <input type="text" placeholder="description"></input>
+      <input
+        style={{ padding: 10 }}
+        type="text"
+        placeholder="description"
+      ></input>
       <br></br>
       <br></br>
-      <button>Add a Todo</button>
+      <button
+        style={{
+          backgroundColor: "yellowgreen",
+          border: "none",
+          padding: 15,
+          cursor: "pointer",
+        }}
+      >
+        Add a Todo
+      </button>
     </div>
   );
 }
